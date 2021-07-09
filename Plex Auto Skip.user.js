@@ -15,7 +15,6 @@
       doc.each(function() {
         $(this).click();
         setTimeout (function() {console.log('Button clicked, waiting...');}, 1000000);
-        debugger;
       });
-  }, 800);
+  }, 500);
 })();
